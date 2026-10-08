@@ -1,0 +1,42 @@
+[
+  {
+    "codigo": "VG10",
+    "tipo": "percentual",
+    "valor": 10,
+    "valor_minimo": 50.00,
+    "valido_ate": "2026-12-31",
+    "usos_maximos": 1000,
+    "usos_atuais": 142,
+    "ativo": true
+  },
+  {
+    "codigo": "GAYMER20",
+    "tipo": "fixo",
+    "valor": 20.00,
+    "valor_minimo": 100.00,
+    "valido_ate": "2026-12-31",
+    "usos_maximos": 500,
+    "usos_atuais": 89,
+    "ativo": true
+  },
+  {
+    "codigo": "XBOX30",
+    "tipo": "percentual",
+    "valor": 30,
+    "valor_minimo": 150.00,
+    "valido_ate": "2026-12-31",
+    "usos_maximos": 200,
+    "usos_atuais": 45,
+    "ativo": true
+  },
+  {
+    "codigo": "PRIMEIRACOMPRA",
+    "tipo": "percentual",
+    "valor": 15,
+    "valor_minimo": 0.00,
+    "valido_ate": "2026-12-31",
+    "usos_maximos": 2000,
+    "usos_atuais": 320,
+    "ativo": true
+  }
+]
