@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Gay(mes) Store — O melhor site de mídia física para gamers</title>
+  <meta name="description" content="O melhor site de mídia física: discos e cartuchos originais e lacrados para PC, PlayStation, Xbox e Nintendo, com envio protegido.">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="store">
+  <div class="container-store">
+    <header class="store-header">
+      <div class="brand">Video Gay<em>(mes)</em><small>STORE</small></div>
+      <nav class="header-nav" id="nav" aria-label="Loja"></nav>
+      <div class="header-search">
+        <svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="q" aria-label="Buscar jogos" placeholder="Qual vai ser seu próximo jogo?">
+      </div>
+      <div class="header-actions">
+        <button class="btn ghost icon" data-a="wishes" title="Lista de desejos"><svg class="i" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></button>
+        <button class="btn ghost icon" id="userBtn" data-a="account" title="Entrar"><svg class="i" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></button>
+        <a class="btn outline admin-link" href="admin.html" title="Painel administrativo"><svg class="i" viewBox="0 0 24 24"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg><span>Admin</span></a>
+        <span class="sep"></span>
+        <button class="btn ghost icon" data-a="cart" title="Carrinho"><svg class="i" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg><span id="cartCount"></span></button>
+      </div>
+    </header>
+  </div>
+
+  <div class="announcement"><span>O melhor site de mídia física do Brasil.</span> &nbsp; Discos e cartuchos originais, lacrados e com frete grátis acima de R$ 299 →</div>
+
+  <section class="hero" id="hero"></section>
+
+  <main class="container-store">
+    <section class="about" id="sobre">
+      <div class="about-text">
+        <span class="eyebrow">POR QUE SOMOS A MELHOR ESCOLHA</span>
+        <h2>O melhor site de <em>mídia física</em> para quem ama jogar de verdade.</h2>
+        <p>Aqui cada jogo chega em disco ou cartucho: original, lacrado e pronto para entrar na sua estante. Sem licença que some, sem download de horas, sem depender de loja digital. Você compra, recebe, joga, empresta, revende e coleciona.</p>
+        <button class="btn lg" data-a="browse" data-v="Catálogo">Explorar o catálogo <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+      </div>
+      <div class="about-grid">
+        <div><span class="about-ico"><svg class="i" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span><h3>100% original e lacrado</h3><p>Mídia nova, de procedência garantida, direto do lacre à sua mão.</p></div>
+        <div><span class="about-ico"><svg class="i" viewBox="0 0 24 24"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5M12 22V12"/></svg></span><h3>Embalagem reforçada</h3><p>Caixas protegidas para o seu jogo chegar sem amassado e sem susto.</p></div>
+        <div><span class="about-ico"><svg class="i" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></span><h3>Acompanhe cada etapa</h3><p>Do pagamento à entrega, você vê a situação do pedido em Minha conta.</p></div>
+        <div><span class="about-ico"><svg class="i" viewBox="0 0 24 24"><path d="M6 12h4M8 10v4"/><path d="M15 13h.01M18 11h.01"/><rect x="2" y="6" width="20" height="12" rx="4"/></svg></span><h3>Sua coleção, para sempre</h3><p>O jogo é seu: guarde, empreste, troque ou revenda quando quiser.</p></div>
+      </div>
+    </section>
+
+    <div class="platform-band">
+      <span class="platform-label">ESCOLHA SUA PLATAFORMA</span>
+      <div class="platform-options" id="platforms"></div>
+    </div>
+
+    <section id="catalog">
+      <div class="mobile-search"><input id="q2" aria-label="Buscar jogos no celular" placeholder="Buscar um jogo..."></div>
+      <div id="catalogBody"></div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div><h2>Os favoritos da galera</h2><p>Os mais bem avaliados da loja.</p></div>
+        <div style="display:flex;gap:8px">
+          <button class="btn ghost icon" data-a="favPrev" title="Jogos anteriores">‹</button>
+          <button class="btn ghost icon" data-a="favNext" title="Próximos jogos">›</button>
+        </div>
+      </div>
+      <div class="game-grid" id="favGrid"></div>
+    </section>
+
+    <div class="benefits">
+      <div><svg class="i" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg><div><strong>Mídia original e lacrada</strong><p>Discos e cartuchos novos, direto na sua estante.</p></div></div>
+      <div><svg class="i" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg><div><strong>Frete grátis acima de R$ 299</strong><p>Mais jogos na caixa. Menos custo de entrega.</p></div></div>
+      <div><svg class="i" viewBox="0 0 24 24"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg><div><strong>De colecionador para colecionador</strong><p>A gente também entende de estante cheia.</p></div></div>
+    </div>
+
+    <footer class="store-footer">
+      <button class="brand-btn" id="secret" aria-label="Video Gay(mes) Store"><div class="brand">Video Gay<em>(mes)</em><small>STORE</small></div></button>
+      <p>© 2026 Video Gay(mes) Store. Todo mundo tem seu jogo.</p>
+      <span></span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
